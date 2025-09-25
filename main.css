@@ -22,6 +22,7 @@ body{
     align-items: center;
     border: 5px solid #c3cfe2;
     border-radius: 20px;
+    overflow: scroll;
 }
 
 input{
