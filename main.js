@@ -31,8 +31,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-// fetch('baza.json')
-//     .then(resposne => resposne.json())
-//     .then(data => {
-//         console.log("JSON data", data);
-//     })
+// Select elementini olish
+const productSelect = document.getElementById("product-1");
+
+// JSON fayldan malumot yuklash
+fetch("products.json")
+  .then(response => response.json())
+  .then(data => {
+    // Har bir mahsulotni <option> sifatida qo‘shish
+    data.forEach(product => {
+      const option = document.createElement("option");
+      option.value = product.id;        // value sifatida ID
+      option.textContent = product.name; // ekranda ko‘rinadigan nom
+      productSelect.appendChild(option);
+    });
+  })
+  .catch(err => console.error("Xatolik:", err));
