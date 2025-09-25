@@ -1,6 +1,15 @@
 [
-  { "id": 1, "name": "Mahsulot-1" },
-  { "id": 2, "name": "Mahsulot-2" },
-  { "id": 3, "name": "Mahsulot-3" },
-  { "id": 4, "name": "Mahsulot-4" }
+  { "id": 1, "name": "CocaCola" },
+  { "id": 2, "name": "Sprite" },
+  { "id": 3, "name": "Pepsi" },
+  { "id": 4, "name": "Fanta" },
+  { "id": 5, "name": "Flesh" },
+  { "id": 6, "name": "Adrenalin" },
+  { "id": 7, "name": "Gorilla" },
+  { "id": 8, "name": "Sayhun" },
+  { "id": 9, "name": "Santal" },
+  { "id": 10, "name": "Dinay" }
 ]
+
+
+
