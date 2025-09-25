@@ -28,11 +28,3 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-
-
-
-// fetch('baza.json')
-//     .then(resposne => resposne.json())
-//     .then(data => {
-//         console.log("JSON data", data);
-//     })
