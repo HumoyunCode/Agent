@@ -62,12 +62,22 @@ input{
 .add-product, .remove-btn{
     width: 40px;
     height: 40px;
-
+    display: grid;
+    place-items: center;
     outline: none;
     border-radius: 10px;
     border: 2px solid black;
 
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 900;
     font-family: 'Courier New';
+    cursor: pointer;
 }
+
+.product-space{
+    display: flex;
+    align-items: center;
+}
+
+
+
